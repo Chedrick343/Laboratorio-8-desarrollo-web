@@ -3,32 +3,72 @@ const fs = require("fs-extra");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const apiKey = require("../middleware/apiKey");
-const { success, error } = require("../utils/response.js");
 
 const router = express.Router();
 const usersFile = "./db/users.json";
 
+router.post("/login", apiKey, async (req, res) => {
+    const { username, password } = req.body;
 
-router.post("/login", apiKey, async (req, res) => { //VALIDAMOS EL APIKEY
-    const { username, password } = req.body; //OBTENEMOS LOS ELEMENTOS ENVIADOS
+    if (!username || !password) {
+        return res.status(422).json({
+            error: "Username y password son requeridos",
+            timestamp: new Date().toISOString(),
+            path: req.originalUrl
+        });
+    }
 
     try {
-        const users = await fs.readJson(usersFile); //LEEMOS LOS USUARIOS
-        const user = users.find(u => u.username === username); //BUSCAMOS EL NOMBRE DE USUARIO
-        if (!user) return error(res, "Usuario no encontrado", 401); //SI NO ENCONTRAMOS EL USUARIO DEVOLVEMOS ERROR
+        const users = await fs.readJson(usersFile);
+        const user = users.find(u => u.username === username);
+        
+        if (!user) {
+            return res.status(401).json({
+                error: "Credenciales inválidas",
+                timestamp: new Date().toISOString(),
+                path: req.originalUrl
+            });
+        }
 
-        const validPass = await bcrypt.compare(password, user.password); //SI LO ENCONTRAMOS ENTONCES COMPARAMOS LA CONTRASENIA
-        if (!validPass) return error(res, "Credenciales inválidas", 401); //SI NO ES VALIDA DEVOLVEMOS ERROR
+        const validPass = await bcrypt.compare(password, user.password);
+        if (!validPass) {
+            return res.status(401).json({
+                error: "Credenciales inválidas",
+                timestamp: new Date().toISOString(),
+                path: req.originalUrl
+            });
+        }
 
         const token = jwt.sign(
-            { id: user.id, username: user.username, role: user.role }, //LE DAMOS UN TOKEN AL CLIENTE
+            { 
+                id: user.id, 
+                username: user.username, 
+                role: user.role 
+            },
             process.env.JWT_SECRET,
-            { expiresIn: "1h" } //EXPIRA EN 1 HORA
+            { expiresIn: "1h" }
         );
 
-        return success(res, { token }, 200); //Retornamos respuesta exitosa
+        res.status(200).json({
+            data: { 
+                token,
+                user: {
+                    id: user.id,
+                    username: user.username,
+                    role: user.role
+                }
+            },
+            timestamp: new Date().toISOString(),
+            path: req.originalUrl
+        });
+
     } catch (err) {
-        return error(res, err.message, 500); //si da algun error retornamos error
+        console.error(err);
+        res.status(500).json({
+            error: "Error interno del servidor",
+            timestamp: new Date().toISOString(),
+            path: req.originalUrl
+        });
     }
 });
 

@@ -9,7 +9,7 @@ const router = express.Router(); //ROUTER PARA CREAR LAS RUTAS
 const productsFile = "./db/products.json"; //PROUDCTOS EN LA BASE DE DATOS
 
 
-router.get("/", apiKey, async (req, res) => {//VALIDAMOS LA CLAVE
+router.get("/products", apiKey, async (req, res) => {//VALIDAMOS LA CLAVE
     try {
         const { page = 1, limit = 10 } = req.query; //TOMAMOS LOS PARAMETROS DE LA CONSULTA
         const products = await fs.readJson(productsFile); //LEEMOS LOS PRODUCTOS EN LA BASE DE DATOS
