@@ -1,0 +1,10 @@
+[
+    {
+        "id": "101",
+        "name": "Laptop",
+        "sku": "LAP123",
+        "price": 1200,
+        "stock": 10,
+        "category": "Electronics"
+    }
+]
