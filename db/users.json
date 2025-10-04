@@ -1,14 +1,26 @@
 [
-    {
-        "id": "1",
-        "username": "admin",
-        "password": "$2a$10$...",
-        "role": "admin"
-    },
-    {
-        "id": "2",
-        "username": "editor",
-        "password": "$2a$10$...",
-        "role": "editor"
-    }
+  {
+    "id": "1",
+    "username": "admin",
+    "password": "$2a$10$...",
+    "role": "admin"
+  },
+  {
+    "id": "2",
+    "username": "editor",
+    "password": "$2a$10$...",
+    "role": "editor"
+  },
+  {
+    "id": "22894659-d677-44d7-b248-d0f36d9acbcc",
+    "username": "usuarioNuevo",
+    "password": "$2b$10$7dBb.PYnlqilQ90Nzp.3LuFG86UqLSMWpjtkSbuW7uinIe5puHgWe",
+    "role": "admin"
+  },
+  {
+    "id": "c14cece3-424e-4118-9972-0defaf45f2ab",
+    "username": "usuarioNuevo2",
+    "password": "$2b$10$/onwz.LMN6abbhUEDAzE6.0hu40tZMkZVwmZGH/rWquWqtdDhLh.y",
+    "role": "admin"
+  }
 ]

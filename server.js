@@ -1,10 +1,14 @@
 const express = require("express");
+require("dotenv").config();
 
 const app = express();
 
 // Middlewares básicos
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 
 // Ruta de prueba ANTES de cargar las rutas principales
 app.get("/", (req, res) => {
@@ -28,8 +32,8 @@ try {
     const authRoutes = require("./routes/auth");
     const productsRoutes = require("./routes/products");
     
-    app.use("/auth.js", authRoutes);
-    app.use("/products.js", productsRoutes);
+    app.use("/auth", authRoutes);
+    app.use("/products", productsRoutes);
     
     console.log("✅ Rutas cargadas correctamente");
 } catch (error) {
