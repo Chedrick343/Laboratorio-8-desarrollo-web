@@ -7,7 +7,7 @@ const apiKey = require("../middleware/apiKey");
 const router = express.Router();
 const usersFile = "./db/users.json";
 
-router.post("/login", apiKey, async (req, res) => {
+router.post("/", apiKey, async (req, res) => {
     const { username, password } = req.body;
 
     if (!username || !password) {
