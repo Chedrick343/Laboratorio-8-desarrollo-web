@@ -6,5 +6,477 @@
         "price": 1200,
         "stock": 10,
         "category": "Electronics"
+    },
+    {
+        "id": "102",
+        "name": "Smartphone",
+        "sku": "SMT456",
+        "price": 800,
+        "stock": 25,
+        "category": "Electronics"
+    },
+    {
+        "id": "103",
+        "name": "Tablet",
+        "sku": "TAB789",
+        "price": 450,
+        "stock": 15,
+        "category": "Electronics"
+    },
+    {
+        "id": "104",
+        "name": "Headphones",
+        "sku": "HDP234",
+        "price": 150,
+        "stock": 50,
+        "category": "Accessories"
+    },
+    {
+        "id": "105",
+        "name": "Smartwatch",
+        "sku": "SWT567",
+        "price": 200,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "id": "106",
+        "name": "Camera",
+        "sku": "CAM890",
+        "price": 650,
+        "stock": 12,
+        "category": "Electronics"
+    },
+    {
+        "id": "107",
+        "name": "Keyboard",
+        "sku": "KBD123",
+        "price": 80,
+        "stock": 40,
+        "category": "Accessories"
+    },
+    {
+        "id": "108",
+        "name": "Mouse",
+        "sku": "MSE456",
+        "price": 50,
+        "stock": 60,
+        "category": "Accessories"
+    },
+    {
+        "id": "109",
+        "name": "Monitor",
+        "sku": "MON789",
+        "price": 300,
+        "stock": 20,
+        "category": "Electronics"
+    },
+    {
+        "id": "110",
+        "name": "Printer",
+        "sku": "PRT234",
+        "price": 220,
+        "stock": 18,
+        "category": "Electronics"
+    },
+    {
+        "id": "111",
+        "name": "Desk Lamp",
+        "sku": "DLP567",
+        "price": 45,
+        "stock": 35,
+        "category": "Home"
+    },
+    {
+        "id": "112",
+        "name": "Office Chair",
+        "sku": "OCH890",
+        "price": 150,
+        "stock": 10,
+        "category": "Home"
+    },
+    {
+        "id": "113",
+        "name": "External HDD",
+        "sku": "HDD123",
+        "price": 100,
+        "stock": 25,
+        "category": "Electronics"
+    },
+    {
+        "id": "114",
+        "name": "USB Drive",
+        "sku": "USB456",
+        "price": 20,
+        "stock": 100,
+        "category": "Electronics"
+    },
+    {
+        "id": "115",
+        "name": "Router",
+        "sku": "RTR789",
+        "price": 120,
+        "stock": 15,
+        "category": "Electronics"
+    },
+    {
+        "id": "116",
+        "name": "Projector",
+        "sku": "PRJ234",
+        "price": 500,
+        "stock": 8,
+        "category": "Electronics"
+    },
+    {
+        "id": "117",
+        "name": "Gaming Console",
+        "sku": "GMC567",
+        "price": 400,
+        "stock": 20,
+        "category": "Electronics"
+    },
+    {
+        "id": "118",
+        "name": "VR Headset",
+        "sku": "VRH890",
+        "price": 350,
+        "stock": 12,
+        "category": "Electronics"
+    },
+    {
+        "id": "119",
+        "name": "Speakers",
+        "sku": "SPK123",
+        "price": 150,
+        "stock": 25,
+        "category": "Accessories"
+    },
+    {
+        "id": "120",
+        "name": "Microphone",
+        "sku": "MIC456",
+        "price": 80,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "id": "121",
+        "name": "Smart Light",
+        "sku": "SLT789",
+        "price": 60,
+        "stock": 40,
+        "category": "Home"
+    },
+    {
+        "id": "122",
+        "name": "Coffee Maker",
+        "sku": "CMK234",
+        "price": 90,
+        "stock": 15,
+        "category": "Home"
+    },
+    {
+        "id": "123",
+        "name": "Blender",
+        "sku": "BLD567",
+        "price": 70,
+        "stock": 20,
+        "category": "Home"
+    },
+    {
+        "id": "124",
+        "name": "Electric Kettle",
+        "sku": "KTl890",
+        "price": 40,
+        "stock": 25,
+        "category": "Home"
+    },
+    {
+        "id": "125",
+        "name": "Air Fryer",
+        "sku": "AFR123",
+        "price": 110,
+        "stock": 18,
+        "category": "Home"
+    },
+    {
+        "id": "126",
+        "name": "Fitness Tracker",
+        "sku": "FTK456",
+        "price": 90,
+        "stock": 22,
+        "category": "Accessories"
+    },
+    {
+        "id": "127",
+        "name": "Electric Toothbrush",
+        "sku": "ETB789",
+        "price": 60,
+        "stock": 35,
+        "category": "Home"
+    },
+    {
+        "id": "128",
+        "name": "Hair Dryer",
+        "sku": "HDR234",
+        "price": 50,
+        "stock": 28,
+        "category": "Home"
+    },
+    {
+        "id": "129",
+        "name": "Monitor Stand",
+        "sku": "MST567",
+        "price": 40,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "id": "130",
+        "name": "Laptop Bag",
+        "sku": "LBG890",
+        "price": 70,
+        "stock": 25,
+        "category": "Accessories"
+    },
+    {
+        "id": "131",
+        "name": "Gaming Chair",
+        "sku": "GCH123",
+        "price": 200,
+        "stock": 10,
+        "category": "Home"
+    },
+    {
+        "id": "132",
+        "name": "Webcam",
+        "sku": "WCB456",
+        "price": 90,
+        "stock": 20,
+        "category": "Electronics"
+    },
+    {
+        "id": "133",
+        "name": "Tablet Case",
+        "sku": "TBC789",
+        "price": 25,
+        "stock": 50,
+        "category": "Accessories"
+    },
+    {
+        "id": "134",
+        "name": "Wireless Charger",
+        "sku": "WCH234",
+        "price": 35,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "id": "135",
+        "name": "Bluetooth Earbuds",
+        "sku": "BER567",
+        "price": 120,
+        "stock": 40,
+        "category": "Accessories"
+    },
+    {
+        "id": "136",
+        "name": "Desk Organizer",
+        "sku": "DOR890",
+        "price": 30,
+        "stock": 50,
+        "category": "Home"
+    },
+    {
+        "id": "137",
+        "name": "Notebook",
+        "sku": "NTB123",
+        "price": 5,
+        "stock": 200,
+        "category": "Office"
+    },
+    {
+        "id": "138",
+        "name": "Pen Set",
+        "sku": "PNS456",
+        "price": 10,
+        "stock": 150,
+        "category": "Office"
+    },
+    {
+        "id": "139",
+        "name": "Desk Mat",
+        "sku": "DMT789",
+        "price": 20,
+        "stock": 60,
+        "category": "Office"
+    },
+    {
+        "id": "140",
+        "name": "Paper Clips",
+        "sku": "PCL234",
+        "price": 3,
+        "stock": 500,
+        "category": "Office"
+    },
+    {
+        "id": "141",
+        "name": "Stapler",
+        "sku": "STP567",
+        "price": 15,
+        "stock": 40,
+        "category": "Office"
+    },
+    {
+        "id": "142",
+        "name": "Whiteboard",
+        "sku": "WBD890",
+        "price": 80,
+        "stock": 10,
+        "category": "Office"
+    },
+    {
+        "id": "143",
+        "name": "Calculator",
+        "sku": "CAL123",
+        "price": 25,
+        "stock": 30,
+        "category": "Office"
+    },
+    {
+        "id": "144",
+        "name": "Electric Screwdriver",
+        "sku": "ESD456",
+        "price": 60,
+        "stock": 12,
+        "category": "Tools"
+    },
+    {
+        "id": "145",
+        "name": "Hammer",
+        "sku": "HAM789",
+        "price": 20,
+        "stock": 25,
+        "category": "Tools"
+    },
+    {
+        "id": "146",
+        "name": "Wrench Set",
+        "sku": "WRN234",
+        "price": 45,
+        "stock": 15,
+        "category": "Tools"
+    },
+    {
+        "id": "147",
+        "name": "Pliers",
+        "sku": "PLR567",
+        "price": 18,
+        "stock": 30,
+        "category": "Tools"
+    },
+    {
+        "id": "148",
+        "name": "Tape Measure",
+        "sku": "TME890",
+        "price": 12,
+        "stock": 50,
+        "category": "Tools"
+    },
+    {
+        "id": "149",
+        "name": "Drill",
+        "sku": "DRL123",
+        "price": 120,
+        "stock": 8,
+        "category": "Tools"
+    },
+    {
+        "id": "150",
+        "name": "Toolbox",
+        "sku": "TLB456",
+        "price": 70,
+        "stock": 20,
+        "category": "Tools"
+    },
+    {
+        "id": "151",
+        "name": "Backpack",
+        "sku": "BKP789",
+        "price": 60,
+        "stock": 30,
+        "category": "Accessories"
+    },
+    {
+        "id": "152",
+        "name": "Sunglasses",
+        "sku": "SGL234",
+        "price": 50,
+        "stock": 40,
+        "category": "Accessories"
+    },
+    {
+        "id": "153",
+        "name": "Wallet",
+        "sku": "WLT567",
+        "price": 35,
+        "stock": 50,
+        "category": "Accessories"
+    },
+    {
+        "id": "154",
+        "name": "Belt",
+        "sku": "BLT890",
+        "price": 25,
+        "stock": 60,
+        "category": "Accessories"
+    },
+    {
+        "id": "155",
+        "name": "Shoes",
+        "sku": "SHO123",
+        "price": 80,
+        "stock": 40,
+        "category": "Clothing"
+    },
+    {
+        "id": "156",
+        "name": "Jacket",
+        "sku": "JKT456",
+        "price": 120,
+        "stock": 30,
+        "category": "Clothing"
+    },
+    {
+        "id": "157",
+        "name": "T-Shirt",
+        "sku": "TSH789",
+        "price": 20,
+        "stock": 100,
+        "category": "Clothing"
+    },
+    {
+        "id": "158",
+        "name": "Jeans",
+        "sku": "JNS234",
+        "price": 50,
+        "stock": 60,
+        "category": "Clothing"
+    },
+    {
+        "id": "159",
+        "name": "Hat",
+        "sku": "HAT567",
+        "price": 15,
+        "stock": 70,
+        "category": "Clothing"
+    },
+    {
+        "id": "160",
+        "name": "Scarf",
+        "sku": "SCF890",
+        "price": 25,
+        "stock": 50,
+        "category": "Clothing"
     }
 ]
